@@ -1,0 +1,78 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.half-width img{
+    width: 80%;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    color: gray;
+}
+.color-text{
+    color: #f35c75;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding: 2%;
+    float: left;
+}
+.link-button{
+    padding: 10px 30px;
+    background-color: #f35c75;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.main-sec{
+    background-image: url("personal-website/header-bg.png");
+    height: 650px;
+    background-position: right 28% bottom 40%;
+    background-repeat: no-repeat;
+}
+.biography{
+    background-image: url("personal-website/biography-bg.png");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: right 35% bottom 45%;
+}
+.work-img{
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+.work-section{
+    background-image: url("personal-website/latest-work-bg.png");
+    height: 500px;
+}
+.box-block{
+    margin: 100px;
+
+    width: 500px;
+    height: 100px;
+    background-color: deeppink;
+    text-align: center;
+}
+
+.last-section div{
+    width: 600px;
+    background-color:#e92163eb;
+    margin: auto;
+    padding: 0px;
+    border-radius: 10px;
+    color:#ffff;
+}
+.footer-img{
+    height: 400px;
+    background-position: right 28% bottom 60%;
+    background-image: url("personal-website/footer-bg.png");
+}
+
